@@ -2,12 +2,13 @@
 using namespace std;
 int main(){
     int n;
+    cout<<"enter the number of sides";
     cin>>n;
-    int fact = 1;
     for(int i=1;i<=n;i++){
-        fact *= i;
-        cout<<fact<<endl;
+        for(int j=1;j<=n;j++){
+            cout<<j;
+        }
+        cout<<endl;
     }
     return 0;
-
 }
